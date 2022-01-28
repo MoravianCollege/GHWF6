@@ -9,4 +9,4 @@ def test_zero_grades():
 
 def test_single_grade():
     grades = [42]
-    assert compute_hw_average(grades) == 42
+    assert compute_hw_average(grades) == 60
